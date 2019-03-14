@@ -1,0 +1,223 @@
+body{
+	margin:auto;
+	padding:0;
+	width:100%;
+}
+
+ul{
+	list-style:none;
+}
+
+a{
+	text-decoration:none;
+	color:black;
+}
+
+header{
+	height:100px;
+}
+
+footer{
+	height:200px;
+	background-color:gray;
+}
+
+.site-header{
+	background:rgba(255,255,255,1);
+	position:fixed;
+	top:0;
+	justify-content:space-between;
+	transition:.5s;
+	width:100%;
+}
+
+.site-header a{
+	color:black;
+}
+
+.site-header.transform{
+	background:rgba(255,150,100,1);
+}
+
+.header_list{
+	float:right;
+	padding:20px 20px 0 0;
+	margin:5px 0 0 0;
+}
+
+.header_list li{
+	float:left;
+	padding:20px 80px 20px 0;
+}
+
+.more a, .content_title a{
+	color:black;
+	position:relative;
+	display:inline-block;
+	transition:.3s;
+}
+
+.list_name a{
+	color:black;
+	position:relative;
+	display:inline-block;
+	transition:.3s;
+}
+
+.more a::after, .content_title a::after{
+	position:absolute;
+	bottom:0;
+	left:50%;
+	content:'';
+	width:0;
+	height:2px;
+	background-color:#FACC2E;
+	transition:.3s;
+	-webkit-transform:translateX(-50%);
+	transform:translateX(-50%);
+}
+
+.list_name a::after{
+	position:absolute;
+	bottom:0;
+	left:50%;
+	content:'';
+	width:0;
+	height:2px;
+	background-color:#FACC2E;
+	transition:.3s;
+	-webkit-transform:translateX(-50%);
+	transform:translateX(-50%);
+}
+
+.more a:hover::after, .content_title a:hover::after{
+	width:120%;
+}
+
+.list_name a:hover::after{
+	width:120%;
+}
+
+.main_visual{
+	display:inline-block;
+	text-align:center;
+	width:100%;
+}
+
+.main_visual img{
+	width:80%;
+}
+
+.main_visual p{
+	position:absolute;
+	top:0;
+	left:0;
+	/*color:#4c4848;*/
+}
+
+.main_visual_title{
+	font-size:50px;
+	padding:450px 0 0 0;
+	margin:0 0 0 850px;
+	border-bottom:solid 2px #FACC2E;
+}
+
+.main_visual_explain{
+	font-size:20px;
+	padding:550px 0 0 0;
+	margin:0 0 0 850px;
+}
+
+.concept{
+	/*background:#FFFF00;*/
+	margin:0 0 50px 0;
+	padding:50px 0 50px 100px;
+}
+
+.concept_content{
+	width:60%;
+	margin:0 0 0 20px;
+}
+
+.sub_title{
+	font-size:30px;
+	color:#4c4848;
+}
+
+.making{
+	padding:0 0 0 100px;
+	margin:0 0 50px 0;
+}
+
+.sub_title_02{
+	font-size:20px;
+}
+
+.summary{
+	color:#4c4848;
+}
+
+.outside img, .inside img, .shikumi img{
+	height:120px;
+	margin:20px 0;
+}
+
+.outside, .inside{
+	display:inline-block;
+	vertical-align:top;
+}
+
+.making_name{
+/*	border-bottom:solid 2px #FACC2E;*/
+}
+
+.making_explain{
+	font-size:13px;
+	margin-bottom:10px;
+}
+
+.flow, .point{
+	padding:0 0 0 100px;
+	margin:0 0 50px 0;
+}
+
+.flow_detail{
+	display:inline-block;
+}
+
+.flow_01 img, .flow_02 img, .flow_03 img
+, .flow_04 img, .flow_05 img, .flow_06 img{
+	width:90px;
+	margin:10px 0;
+}
+
+.effect_cat_text, .effect_human_text, .effect_tram_text{
+	display:inline-block;
+	vertical-align:top;
+}
+
+.flow_name{
+	font-size:18px;
+	display:inline-block;
+	padding:20px 0 10px 0;
+}
+
+.flow_explain{
+	width:400px;
+	font-size:13px;
+}
+
+.lesson{
+	padding:0 0 0 100px;
+	margin:0 0 50px 0;
+}
+
+.process{
+	padding:0 0 0 100px;
+	margin:0 0 50px 0;
+}
+
+.achieve{
+	padding:0 0 0 100px;
+	margin:0 0 50px 0;
+}
