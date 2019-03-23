@@ -209,10 +209,24 @@ footer{
 	margin:0 0 50px 0;
 }
 
+
+
+
+
 .process{
 	padding:0 0 0 100px;
 	margin:0 0 50px 0;
 }
+.process_img{
+	display:inline-block;
+}
+.process_img img{
+	width:180px;
+}
+
+
+
+
 
 .achieve{
 	padding:0 0 0 100px;
