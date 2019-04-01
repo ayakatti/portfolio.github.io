@@ -216,11 +216,16 @@ footer{
 .process{
 	padding:0 0 0 100px;
 	margin:0 0 50px 0;
+	/*vertical-align:top;*/
 }
 .process_img{
 	display:inline-block;
+	vertical-align:top;
 }
 .process_img img{
+	width:180px;
+}
+.process_text{
 	width:180px;
 }
 
