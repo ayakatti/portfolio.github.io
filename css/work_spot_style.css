@@ -158,7 +158,7 @@ footer{
 
 .spe_content, .manhole_content, .big_content{
 	margin:0 0 50px 0;
-	width:600px;
+	width:1000px;
 }
 .spe_01_img img, .spe_02_img img, .spe_03_img img,
 .manhole_01_img img, .manhole_02_img img,
@@ -195,6 +195,9 @@ footer{
 .lesson{
 	padding:0 0 0 100px;
 	margin:0 0 50px 0;
+}
+.lesson_content{
+	width:1000px;
 }
 
 .achieve{
