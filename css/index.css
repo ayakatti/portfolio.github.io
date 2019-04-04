@@ -123,6 +123,7 @@ img.main_visual_photo{
 }
 .ja{
 	padding:20px 0 0 0;
+	font-size:18px;
 }
 
 
@@ -141,6 +142,12 @@ img.main_visual_photo{
 /*	text-align:center;*/
 	margin-bottom:30px;
 }
+.prof_intro{
+	padding:0;
+	margin:20px 0 30px 0;
+	font-size:14px;
+	width:1000px;
+}
 .prof_photo{
 	padding:0;
 	margin:0;
@@ -148,35 +155,49 @@ img.main_visual_photo{
 	vertical-align:top;
 }
 img.my_photo{
-	width:300px;
+	width:150px;
 }
-.prof_title{
+.prof_text{
 	display:inline-block;
 	padding:0;
-	margin:0 0 20px 50px;
+	margin:0 0 0 50px;
+	font-size:14px;
 }
 .my_name{
-	font-size:40px;
-	margin:0 0 20px 0;
+	/*font-size:40px;*/
+	margin:0 0 10px 0;
 }
 .pr_name{
 	display:block;
-	margin:0 0 20px 0;
+	margin:0 0 10px 0;
 }
 .pr_content{
 	margin:0 0 20px 0;
 }
+
+
+
+
+
 .skills{
 	padding:90px 0 0 100px;
 	margin:0;
 	height:100%;
 }
 .sk_name{
-	margin:20px 0 0 0;
+	font-size:14px;
+	text-align:center;
 }
 .using_img img, .using_02_img img{
 	width:80px;
-	padding:10px 5px 0 5px;
+	padding:10px 5px 0 0;
+}
+.sk_list{
+	display:inline-block;
+}
+.sk_list img{
+	width:80px;
+	padding:10px 5px 0 0;
 }
 
 
@@ -216,7 +237,7 @@ img.my_photo{
 .content_text{
 	text-align:start;
 	width:400px;
-	font-size:13px;
+	font-size:14px;
 	display:block;
 }
 .more{
