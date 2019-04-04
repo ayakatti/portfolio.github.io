@@ -2,6 +2,7 @@ body{
 	margin:auto;
 	padding:0;
 	width:100%;
+	/*line-height:40px;*/
 }
 ul{
 	list-style:none;
@@ -126,8 +127,9 @@ footer{
 	padding:50px 0 0 50px;
 }
 .concept_content{
-	width:550px;
-	margin:20px 0 0 20px;
+	width:570px;
+	margin:30px 0 0 20px;
+	line-height:40px;
 }
 .concept_text{
 	vertical-align:top;
@@ -170,6 +172,7 @@ footer{
 .effect{
 	padding:0 0 0 100px;
 	margin:0 0 50px 0;
+	line-height:20px;
 }
 .effect_triangle{
 	display:inline-block;
