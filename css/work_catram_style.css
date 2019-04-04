@@ -223,10 +223,11 @@ footer{
 	vertical-align:top;
 }
 .process_img img{
-	width:180px;
+	width:120px;
 }
 .process_text{
-	width:180px;
+	width:120px;
+	font-size:14px;
 }
 
 
