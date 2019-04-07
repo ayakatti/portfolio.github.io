@@ -2,6 +2,7 @@ body{
 	margin:auto;
 	padding:0;
 	width:100%;
+	color:#4c4848;
 }
 ul{
 	list-style:none;
@@ -119,22 +120,25 @@ footer{
 
 
 .concept{
-	margin:0 0 50px 0;
-	padding:50px 0 50px 50px;
+	margin:100px 0 150px 0;
+	padding:0 0 0 50px;
 }
 .concept_text{
-	margin:0 50px 0 0;
+	/*margin:0 50px 0 0;*/
 }
 .concept_text, .concept_img{
 	display:inline-block;
+	vertical-align:top;
 }
 .concept_content{
 	width:500px;
-	margin:10px 0 10px 20px;
+	margin:30px 0 0 10px;
+	line-height:40px;
 }
 .concept_img img{
 	display:inline-block;
 	width:350px;
+	margin:90px 0 0 70px;
 }
 
 
@@ -204,6 +208,17 @@ footer{
 }
 .lesson_content{
 	width:1000px;
+}
+
+
+
+
+.information{
+	padding:0 0 0 100px;
+	margin:0 0 100px 0;
+}
+.info_list{
+	line-height:30px;
 }
 
 
