@@ -2,7 +2,7 @@ body{
 	margin:auto;
 	padding:0;
 	width:100%;
-	/*line-height:40px;*/
+	color:#4c4848;
 }
 ul{
 	list-style:none;
@@ -24,6 +24,8 @@ footer{
 
 
 .site-header{
+	margin:0;
+	padding:0;
 	background:rgba(255,255,255,1);
 	position:fixed;
 	top:0;
@@ -108,13 +110,6 @@ footer{
 
 .sub_title{
 	font-size:30px;
-	color:#4c4848;
-}
-.sub_title_02{
-	font-size:20px;
-}
-.summary{
-	color:#4c4848;
 }
 
 
@@ -123,8 +118,8 @@ footer{
 
 .concept{
 	/*background:#FFFF00;*/
-	margin:0 0 50px 0;
-	padding:50px 0 0 50px;
+	margin:100px 0 150px 0;
+	padding:0 0 0 50px;
 }
 .concept_content{
 	width:570px;
@@ -149,20 +144,50 @@ footer{
 	padding:0 0 0 100px;
 	margin:0 0 50px 0;
 }
-.outside img, .inside img{
+.outside_img img{
 	width:500px;
-	margin:20px 0;
+	margin:150px 0 0 100px;
+}
+.inside_img img{
+	width:500px;
+	margin:200px 0 0 150px;
 }
 .outside, .inside{
+	display:block;
+	padding:0;
+}
+.outside{
+	margin:0 0 150px 0;
+}
+.outside_text, .outside_img, .inside_text, .inside_img{
 	display:inline-block;
 	vertical-align:top;
+	margin:0;
+	padding:0;
 }
-.making_name{
-/*	border-bottom:solid 2px #FACC2E;*/
+.making_text{
+	display:block;
 }
-.making_explain{
-	font-size:13px;
-	margin-bottom:10px;
+.making_text_02{
+	display:block;
+	margin:0 0 0 50px;
+}
+.making_text_title{
+	display:block;
+	font-size:30px;
+	border-bottom:solid 2px #FACC2E;
+}
+.making_text_subtitle{
+	font-size:18px;
+	margin:10px 0 50px 0;
+}
+.making_detail_title{
+	font-size:18px;
+	margin:0 0 5px 0;
+}
+.making_detail_content{
+	font-size:14px;
+	margin:0 0 30px 0;
 }
 
 
@@ -170,24 +195,35 @@ footer{
 
 
 .effect{
-	padding:0 0 0 100px;
-	margin:0 0 50px 0;
+	/*padding:0 0 0 100px;*/
+	margin:200px 0 150px 100px;
 	line-height:20px;
 }
+.effect_title_explain{
+	padding:20px 0 0 0;
+}
 .effect_triangle{
-	display:inline-block;
-	margin:0 20px 0 0;
+	display:block;
+	text-align:center;
+	margin:0 0 100px -100px;
+	padding:0;
 }
 .effect_triangle img{
-	width:400px;
+	width:450px;
 	margin:20px 0;
 }
 .effect_detail{
-	display:inline-block;
+	display:block;
+	text-align:center;
+	margin:0 0 0 -100px;
+	padding:0;
+}
+.effect_cat, .effect_human, .effect_tram{
+	margin:20px 0;
 }
 .effect_cat img, .effect_human img, .effect_tram img{
-	width:90px;
-	margin:10px 0;
+	width:120px;
+	margin:20px 0 0 0;
 }
 .effect_cat_text, .effect_human_text, .effect_tram_text{
 	display:inline-block;
@@ -196,25 +232,33 @@ footer{
 .effect_name{
 	font-size:18px;
 	display:inline-block;
-	padding:20px 0 10px 0;
+	padding:20px 0 15px 0;
 }
 .effect_explain{
 	width:400px;
-	font-size:13px;
+	font-size:15px;
+	line-height:30px;
+}
+
+
+
+
+.information{
+	padding:0 0 0 100px;
+	margin:0 0 100px 0;
+}
+.info_list{
+	line-height:30px;
 }
 
 
 
 
 
-.lesson{
+.skills{
 	padding:0 0 0 100px;
 	margin:0 0 50px 0;
 }
-
-
-
-
 .sk_list{
 	display:inline-block;
 }
