@@ -2,13 +2,14 @@ body{
 	margin:auto;
 	padding:0;
 	width:100%;
+	color:#4c4848;
 }
 ul{
 	list-style:none;
 }
 a{
 	text-decoration:none;
-	color:black;
+	color:#4c4848;
 }
 header{
 	height:100px;
@@ -31,7 +32,7 @@ footer{
 	width:100%;
 }
 .site-header a{
-	color:black;
+	color:#4c4848;
 }
 .site-header.transform{
 	background:rgba(255,150,100,1);
@@ -53,13 +54,13 @@ footer{
 	padding:20px 80px 20px 0;
 }
 .more a, .content_title a{
-	color:black;
+	color:#4c4848;
 	position:relative;
 	display:inline-block;
 	transition:.3s;
 }
 .list_name a{
-	color:black;
+	color:#4c4848;
 	position:relative;
 	display:inline-block;
 	transition:.3s;
