@@ -28,6 +28,7 @@ footer{
 	padding:0;
 	background:rgba(255,255,255,1);
 	position:fixed;
+	z-index:100;
 	top:0;
 	justify-content:space-between;
 	transition:.5s;
@@ -158,12 +159,28 @@ footer{
 }
 .outside{
 	margin:0 0 150px 0;
+	position:relative;
+}
+.inside{
+	position:relative;
 }
 .outside_text, .outside_img, .inside_text, .inside_img{
 	display:inline-block;
 	vertical-align:top;
 	margin:0;
 	padding:0;
+}
+.outside_bg, .inside_bg{
+	position:absolute;
+	/*top:20px;*/
+	left:300px;
+}
+.outside_img, .inside_img{
+	position:relative;
+	margin:0 0 0 400px;
+}
+.outside_text, .inside_text{
+	position:absolute;
 }
 .making_text{
 	display:block;
