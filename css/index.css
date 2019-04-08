@@ -26,6 +26,7 @@ footer{
 .site-header{
 	background:rgba(255,255,255,1);
 	position:fixed;
+	z-index:100;
 	top:0;
 	justify-content:space-between;
 	transition:.5s;
