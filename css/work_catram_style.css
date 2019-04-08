@@ -143,11 +143,11 @@ footer{
 
 .making{
 	padding:0 0 0 100px;
-	margin:0 0 50px 0;
+	margin:0 0 100px 0;
 }
 .outside_img img{
 	width:500px;
-	margin:150px 0 0 100px;
+	margin:120px 0 0 100px;
 }
 .inside_img img{
 	width:500px;
@@ -158,7 +158,7 @@ footer{
 	padding:0;
 }
 .outside{
-	margin:0 0 150px 0;
+	margin:0 0 250px 0;
 	position:relative;
 }
 .inside{
@@ -172,8 +172,9 @@ footer{
 }
 .outside_bg, .inside_bg{
 	position:absolute;
-	/*top:20px;*/
-	left:300px;
+	width:600px;
+	top:-80px;
+	left:200px;
 }
 .outside_img, .inside_img{
 	position:relative;
@@ -213,7 +214,7 @@ footer{
 
 .effect{
 	/*padding:0 0 0 100px;*/
-	margin:200px 0 150px 100px;
+	margin:300px 0 150px 100px;
 	line-height:20px;
 }
 .effect_title_explain{
