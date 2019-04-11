@@ -144,6 +144,59 @@ footer{
 
 
 
+.sc_intro{
+	padding:0 0 0 100px;
+	margin:50px 0 100px 0;
+}
+.sc_intro_img{
+	text-align:center;
+	padding:0;
+	margin:50px 0 0 -50px;
+}
+.sc_intro_img img{
+	width:750px;
+}
+
+
+
+
+
+.how_intro{
+	padding:0 0 0 100px;
+	margin:0 0 50px 0;
+}
+.how_intro_01, .how_intro_02{
+	display:block;
+	text-align:center;
+	padding:0;
+	margin:0 0 0 -100px;
+}
+.how_intro_01{
+	margin:0 0 50px -100px;
+}
+.how_intro_img, .how_intro_text{
+	display:inline-block;
+	vertical-align:top;
+	padding:0;
+	margin:0;
+}
+.how_intro_img img{
+	width:250px;
+	padding:0 30px;
+}
+.how_intro_title{
+	font-size:25px;
+	width:480px;
+	margin:0 0 20px 0;
+	text-align:left;
+}
+.how_intro_content{
+	width:470px;
+	text-align:left;
+}
+
+
+
 
 .making{
 	padding:0 0 0 100px;
