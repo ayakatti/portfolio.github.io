@@ -200,36 +200,36 @@ footer{
 
 
 
-.making{
-	padding:0 0 0 100px;
-	margin:0 0 50px 0;
-}
-.shikumi img{
-	width:700px;
-}
-
-
-
-
 
 .flow{
 	padding:0 0 0 100px;
 	margin:0 0 50px 0;
+	text-align:center;
 }
 .flow_detail{
 	display:inline-block;
+	padding:0;
+	margin:0 0 0 -100px;
 }
-.flow_01, .flow_02, .flow_03, .flow_04, .flow_05, .flow_06, .flow_ma{
+.flow_01, .flow_02, .flow_03,
+.flow_04, .flow_05, .flow_06,
+.flow_07, .flow_ma{
 	display:inline-block;
 	vertical-align:top;
+	padding:0 10px;
 }
 .flow_first, .flow_latter{
 	display:block;
-	margin:50px 0;
+	margin:0 0 30px 0;
+}
+.flow_last{
+	display:block;
+	margin:0;
+	float:left;
 }
 .flow_01 img, .flow_02 img, .flow_03 img
-, .flow_04 img, .flow_05 img, .flow_06 img{
-	width:200px;
+, .flow_04 img, .flow_05 img, .flow_06 img, .flow_07 img{
+	width:250px;
 	margin:10px 0;
 }
 .flow_text{
@@ -237,20 +237,21 @@ footer{
 	vertical-align:top;
 	margin:0;
 	padding:0;
+	text-align:left;
 }
 .flow_name{
 	font-size:18px;
 	display:inline-block;
-	padding:20px 0 10px 0;
+	padding:0 0 10px 0;
 	margin:0;
 }
 .flow_explain{
-	width:200px;
+	width:250px;
 	font-size:13px;
+	text-align:left;
 }
 .flow_ma{
 	padding:100px 10px 0 10px;
-	/*margin:0;*/
 }
 
 
@@ -291,13 +292,14 @@ footer{
 
 
 
-.lesson{
+.making{
 	padding:0 0 0 100px;
 	margin:0 0 50px 0;
 }
-.lesson_content{
-	width:1000px;
+.shikumi img{
+	width:700px;
 }
+
 
 
 
@@ -320,6 +322,11 @@ footer{
 	padding:0 0 0 100px;
 	margin:0 0 50px 0;
 }
+.process_content{
+	line-height:30px;
+	text-align:center;
+	margin:0 0 0 -130px;
+}
 
 
 
@@ -329,4 +336,7 @@ footer{
 	padding:0 0 0 100px;
 	margin:0 0 50px 0;
 }
-
+.achieve_content{
+	text-align:center;
+	margin:0 0 0 -130px;
+}
