@@ -151,58 +151,22 @@ footer{
 
 
 
-.sc_intro{
+
+.theme{
 	padding:0 0 0 100px;
-	margin:50px 0 100px 0;
-}
-.sc_intro_img{
+	margin:0 0 100px 0;
 	text-align:center;
+}
+.theme_title{
 	padding:0;
-	margin:50px 0 0 -50px;
+	margin:40px 0 40px -50px;
+	font-size:35px;
 }
-.sc_intro_img img{
-	width:750px;
+.theme_content{
+	width:1000px;
+	margin:0 0 0 30px;
+	line-height:40px;
 }
-
-
-
-
-
-.how_intro{
-	padding:0 0 0 100px;
-	margin:0 0 50px 0;
-}
-.how_intro_01, .how_intro_02{
-	display:block;
-	text-align:center;
-	padding:0;
-	margin:0 0 0 -100px;
-}
-.how_intro_01{
-	margin:0 0 50px -100px;
-}
-.how_intro_img, .how_intro_text{
-	display:inline-block;
-	vertical-align:top;
-	padding:0;
-	margin:0;
-}
-.how_intro_img img{
-	width:250px;
-	padding:0 30px;
-}
-.how_intro_title{
-	font-size:25px;
-	width:480px;
-	margin:0 0 20px 0;
-	text-align:left;
-}
-.how_intro_content{
-	width:470px;
-	text-align:left;
-}
-
-
 
 
 
@@ -263,34 +227,17 @@ footer{
 
 
 
-.point{
+.sc_intro{
 	padding:0 0 0 100px;
-	margin:0 0 50px 0;
+	margin:50px 0 100px 0;
 }
-.point_detail{
+.sc_intro_img{
 	text-align:center;
 	padding:0;
-	margin:0 0 0 -100px;
+	margin:50px 0 0 -50px;
 }
-.point_01, .point_02, .point_03{
-	display:inline-block;
-	vertical-align:top;
-	text-align:center;
-	padding:0;
-	margin:0 40px;
-}
-.point_img img{
-	width:150px;
-}
-.point_name{
-	font-size:23px;
-	margin:10px 0;
-}
-.point_explain{
-	font-size:15px;
-	width:230px;
-	text-align:left;
-	margin:auto;
+.sc_intro_img img{
+	width:750px;
 }
 
 
@@ -339,19 +286,6 @@ footer{
 }
 .process_content{
 	line-height:30px;
-	text-align:center;
-	margin:0 0 0 -130px;
-}
-
-
-
-
-
-.achieve{
-	padding:0 0 0 100px;
-	margin:0 0 50px 0;
-}
-.achieve_content{
 	text-align:center;
 	margin:0 0 0 -130px;
 }
