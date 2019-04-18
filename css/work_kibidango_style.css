@@ -104,6 +104,8 @@ footer{
 
 
 
+
+
 .sub_title{
 	font-size:30px;
 	color:#4c4848;
@@ -170,6 +172,8 @@ footer{
 
 
 
+
+
 .flow{
 	padding:0 0 0 100px;
 	margin:0 0 100px 0;
@@ -193,11 +197,6 @@ footer{
 .flow_latter{
 	margin:0 0 0 -50px;
 }
-/*.flow_last{
-	display:block;
-	margin:0;
-	float:left;
-}*/
 .flow_01 img, .flow_02 img, .flow_03 img
 , .flow_04 img, .flow_05 img, .flow_06 img{
 	width:250px;
@@ -248,31 +247,25 @@ footer{
 }
 .sc_intro_content{
 	display:inline-block;
-	width:400px;
+	width:500px;
 	vertical-align:top;
 	margin:40px 0 0 0;
 	text-align:left;
 }
 
-
-
-
-.making{
-	padding:0 0 0 100px;
-	margin:0 0 50px 0;
+.sc_intro_content_main{
+	font-size:27px;
 }
-.shikumi{
-	text-align:center;
-	margin:0;
-	padding:0;
+.sc_intro_content_main_detail{
+	font-size:18px;
+	margin:0 0 20px 0;
 }
-.shikumi_img{
-	text-align:center;
-	margin:0 0 0 -130px;
-	padding:0;
+.sc_intro_content_item{
+	font-size:18px;
 }
-.shikumi_img img{
-	width:700px;
+.sc_intro_content_item_detail{
+	font-size:15px;
+	margin:0 0 15px 0;
 }
 
 
