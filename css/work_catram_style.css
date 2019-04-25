@@ -111,6 +111,7 @@ footer{
 
 .sub_title{
 	font-size:30px;
+	color:#4c4848;
 }
 
 
@@ -232,8 +233,7 @@ footer{
 }
 .effect_detail{
 	display:block;
-	text-align:center;
-	margin:0 0 0 -100px;
+	margin:50px 0 0 0;
 	padding:0;
 }
 .effect_cat, .effect_human, .effect_tram{
@@ -246,6 +246,7 @@ footer{
 .effect_cat_text, .effect_human_text, .effect_tram_text{
 	display:inline-block;
 	vertical-align:top;
+	margin:30px 0 0 0;
 }
 .effect_name{
 	font-size:18px;
@@ -253,7 +254,7 @@ footer{
 	padding:20px 0 15px 0;
 }
 .effect_explain{
-	width:400px;
+	/*width:400px;*/
 	font-size:15px;
 	line-height:30px;
 }
@@ -294,23 +295,29 @@ footer{
 	margin:0 0 50px 0;
 	/*vertical-align:top;*/
 }
-.process_img{
-	display:inline-block;
-	vertical-align:top;
-}
-.process_img img{
-	width:120px;
+.process_detail{
+	font-size:16px;
+	-ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+	/*height:250px;*/
+	margin:0 0 0 50px;
 }
 .process_text{
-	width:120px;
-	font-size:14px;
+	margin:0 20px 0 0;
+}
+.process_mark{
+	margin:20px 20px 0 0;
 }
 
 
 
 
 
-.achieve{
+.information{
 	padding:0 0 0 100px;
-	margin:0 0 50px 0;
+	margin:0 0 100px 0;
+}
+.info_list{
+	line-height:30px;
+	width:500px;
 }
