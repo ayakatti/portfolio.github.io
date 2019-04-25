@@ -170,6 +170,11 @@ footer{
 .big_01_img, .big_02_img, .big_01_content, .big_02_content{
 	display:inline-block;
 }
+.spe_01_img, .spe_02_img, .spe_03_img,
+.manhole_01_img, .manhole_02_img,
+.big_01_img, .big_02_img{
+	padding:0;
+}
 .spe_01_content, .spe_02_content, .spe_03_content,
 .manhole_01_content, .manhole_02_content,
 .big_01_content, .big_02_content{
@@ -200,12 +205,15 @@ footer{
 	width:1000px;
 }
 
-.achieve{
-	padding:0 0 0 100px;
-	margin:0 0 50px 0;
-}
 
-.future{
+
+
+
+.information{
 	padding:0 0 0 100px;
-	margin:0 0 50px 0;
+	margin:0 0 100px 0;
+}
+.info_list{
+	line-height:30px;
+	width:500px;
 }
