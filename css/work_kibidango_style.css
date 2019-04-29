@@ -290,8 +290,16 @@ footer{
 	padding:0 0 0 100px;
 	margin:0 0 50px 0;
 }
-.process_content{
-	line-height:30px;
-	text-align:center;
-	margin:0 0 0 -130px;
+.process_detail{
+	font-size:16px;
+	-ms-writing-mode: tb-rl;
+	writing-mode: vertical-rl;
+	/*height:250px;*/
+	margin:0 0 0 200px;
+}
+.process_text{
+	margin:0 20px 0 0;
+}
+.process_mark{
+	margin:20px 20px 0 0;
 }
