@@ -111,7 +111,6 @@ footer{
 	padding:50px 0 50px 100px;
 }
 .concept_content{
-	width:500px;
 	margin:0;
 }
 
@@ -146,7 +145,7 @@ footer{
 	padding:0;
 }
 .no_03_img, .no_04_img{
-	margin:0;
+	margin:0 0 0 200px;
 }
 .no_03_img img, .no_04_img img{
 	width:250px;
@@ -186,11 +185,10 @@ footer{
 	font-size:25px;
 	margin:0 0 10px 0;
 }
-
 .spe_01_content_content, .spe_02_content_content, .spe_03_content_content,
 .manhole_01_content_content, .manhole_02_content_content,
 .big_01_content_content, .big_02_content_content{
-	width:600px;
+	width:650px;
 }
 
 
